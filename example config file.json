@@ -1,0 +1,53 @@
+{
+  "version": 3,
+  "port": "socket://beaglebone.local:9999",
+  "period_ms": "100.000",
+  "external": false,
+  "master_on": true,
+  "channels": [
+    {
+      "en": true,
+      "name": "S&H",
+      "start": "H",
+      "edges": [
+        48.0
+      ]
+    },
+    {
+      "en": false,
+      "name": "",
+      "start": "L",
+      "edges": []
+    },
+    {
+      "en": true,
+      "name": "Seed Shutters",
+      "start": "L",
+      "edges": [
+        49.0,
+        99.0
+      ]
+    },
+    {
+      "en": true,
+      "name": "SPD Shutters",
+      "start": "H",
+      "edges": [
+        50.0,
+        98.0
+      ]
+    },
+    {
+      "en": false,
+      "name": "",
+      "start": "H",
+      "edges": []
+    },
+    {
+      "en": false,
+      "name": "",
+      "start": "L",
+      "edges": []
+    }
+  ]
+}
